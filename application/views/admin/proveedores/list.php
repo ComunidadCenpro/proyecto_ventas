@@ -51,7 +51,6 @@
                                                     <button type="button" class="btn btn-info btn-view-proveedor" data-toggle="modal" data-target="#modal-default" value="<?php echo $dataproveedor?>">
                                                         <span class="fa fa-search"></span>
                                                     </button>
-                                                    
                                                     <a href="<?php echo base_url()?>mantenimiento/proveedores/edit/<?php echo $proveedor->id;?>" class="btn btn-warning"><span class="fa fa-pencil"></span></a>
                                                     <a href="<?php echo base_url();?>mantenimiento/proveedores/delete/<?php echo $proveedor->id;?>" class="btn btn-danger btn-remove btn-remove-proveedor"><span class="fa fa-remove"></span></a>
                                                 </div>
